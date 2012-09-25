@@ -61,10 +61,10 @@ class userpostalcode {
 
 				
 			//hook into the controller so we can see the contents of the post
-			Event::add('ushahidi_action.profile_post_admin', array($this, '_collect_post'));
+			Event::add('ushahidi_action.profile_add_admin', array($this, '_collect_post'));
 			Event::add('ushahidi_action.profile_post_member', array($this, '_collect_post'));
 			//hook into the controller so we can get the details of the user that was edited for the above post
-			Event::add('ushahidi_action.profile_edit_admin', array($this, '_user_edited'));
+			Event::add('ushahidi_action.profile_edit', array($this, '_user_edited'));
 			Event::add('ushahidi_action.profile_edit_member', array($this, '_user_edited'));
 			
 		}

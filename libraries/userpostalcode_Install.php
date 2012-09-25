@@ -41,7 +41,7 @@ class Userpostalcode_Install {
 	}
 
 	/**
-	 * Drops the FrontlineSMS Tables
+	 * Drops the User Postal Code Tables
 	 */
 	public function uninstall()
 	{
