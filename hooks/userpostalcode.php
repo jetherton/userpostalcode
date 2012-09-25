@@ -73,7 +73,7 @@ class userpostalcode {
 	}
 
 	/**
-	 * Adds the UI for zds admin alerts to the user edit page
+	 * Adds the UI for to the user edit page
 	 */
 	public function _add_user_view()
 	{
